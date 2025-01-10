@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Tsukimi+Rounded&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+
+
+
+body {
+    background-color: black;
+}
+.name {
+    color: wheat;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Anton", serif;
+    letter-spacing: 6px;
+}
+
+.lh-class {
+    background-color: aqua;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    height: 80px;
+    
+
+}
+.mag {
+
+    height: 50px;
+    width: 9vh;
+    margin-left: 20px;
+    margin-top: -1vh;
+}
+.hac-class {
+    justify-items: center;
+    align-items: center;
+    padding-right: 25px;
+    padding-top: 5vh;
+}
+.a-tag {
+    padding-right: 10px;
+
+}
+.b-tag {
+    padding-right: 8px;
+
+}
+.c-tag  {
+    padding-right: 5px;
+}
+.image-tag {
+    display: flex;
+    height: 80vh;
+    width: 700px;
+    align-items: center;
+    padding-left: 300px;
+    margin: auto;
+
+}
+img {
+    height: 350px;
+    width: 50%;
+    border-radius: 1500px;
+   
+
+}
+.intro {
+    text-align: center;
+    color: aqua;
+    
+    
+}
+.tag-p {
+    font-size: 50px;
+    font-weight: bold;
+    position: relative;
+    top: -100px;
+}
+.tagtwop {
+    font-size: 30px;
+    position: relative;
+    top: -150px;
+}
+.linkedin {
+    text-align: center;
+    
+    font-style: normal;
+    position: relative;
+    top: -130px;
+    
+}
+.link {
+    color: rgb(106, 244, 244);
+    text-align: center;
+    font-style: normal; 
+    position: relative;
+    top: -150px;
+}
+
+.ks  {
+    
+    text-align: center;
+    font-size: 50px;
+    color: pink;
+    position: relative;
+    top: -50px;
+    font-family: "Tsukimi Rounded", sans-serif;
+}
+.videobro {
+    display: flex;
+    flex-direction: row;
+    padding-left: 400px;
+    height: 500px;
+    width: 500px;
+    gap: 100px;
+}
+.video {
+    height: 500px;
+    width: 500px;
+
+    
+}
+.last {
+    text-align: center;
+    font-size: 100px;
+    color: darkorchid;
+    font-family: "Jersey 15", serif;
+
+}
+.lastc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(228, 159, 69);
+    font-family: "DM Serif Text", serif;
+
+
+
+}
+.icon img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 50px;  
+    height: auto; 
+}
+
+.pls {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 5px;
+    width: 10vh;
+    gap: 5px;
+}
+.plss {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 2px;
+    width: 100vh;
+    gap: 5px;
+
+}
+.pls img , .plss img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    width: 25px;
+    object-fit: contain;
+    gap: 5px;
+
+
+}
